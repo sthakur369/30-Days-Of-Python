@@ -134,6 +134,7 @@ while count < 5:
 ```
 
 The above while loop only prints 0, 1, 2 and 4 (skips 3).
+
 NOTE: Here we have to understand one important point that we are doing 'count = count + 1' before 'continue', if we don't do that, the code will lock in an infinite loop when count = 3, as, it will fulfill first condition: count < 5 and also count == 3, and it will never be incremented by 1.
 
 ### For Loop
